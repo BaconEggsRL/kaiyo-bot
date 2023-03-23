@@ -25,7 +25,7 @@ set_num_threads(1)
 
 if __name__ == "__main__":
     frame_skip = FRAME_SKIP
-    half_life_seconds = 20  # 8 -> 12 -> 20 at like 20b to fix tick skip
+    half_life_seconds = 8  # 8 -> 12 -> 20 at like 20b to fix tick skip
     fps = 120 / frame_skip
     gamma = np.exp(np.log(0.5) / (fps * half_life_seconds))
     print(f"_gamma is: {gamma}")

@@ -9,7 +9,7 @@ from rlgym.utils.terminal_conditions.common_conditions import TimeoutCondition, 
 from rocket_learn.rollout_generator.redis.redis_rollout_worker import RedisRolloutWorker
 from kaiyo_setter import KaiyoSetter
 from N_Parser import NectoAction
-#from kaiyo_rewards import KaiyoRewards
+# from kaiyo_rewards import KaiyoRewards
 from zero_sum_rewards import ZeroSumReward
 from pretrained_agents.necto.necto_v1 import NectoV1
 from torch import set_num_threads
